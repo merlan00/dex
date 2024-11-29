@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background: #fff;
+    padding: 10px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    color: #3399cc;
+}
+
+.register form {
+    display: flex;
+    gap: 10px;
+}
+
+.register input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register button {
+    padding: 5px 10px;
+    background-color: #3399cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register button:hover {
+    background-color: #287ba0;
+}
+
+nav {
+    background-color: #e0e0e0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #d9d9d9;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #00ffff;
+}
+
+.banner {
+    background: #e0e0e0;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    padding: 20px 0;
+}
+
+.feature-item {
+    background: #ffffff;
+    padding: 10px;
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.content article, .content aside {
+    flex: 1;
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services, .clients, .twitter-feed {
+    padding: 20px 0;
+    background: #fff;
+    margin: 20px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.content article {
+    flex: 1;
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content article p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.content article a {
+    text-decoration: none;
+    color: #3399cc;
+    transition: color 0.3s;
+}
+
+.content article a:hover {
+    color: #287ba0;
+}
